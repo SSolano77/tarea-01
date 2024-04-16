@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(243, 254, 253);
+}
+h1 {background-color: rgb(83, 136, 138)}
+h2 {background-color: rgb(133, 154, 155)}
+h3 {background-color: rgb(172, 181, 182)}
+h4 {background-color: rgb(227, 234, 235)}
+
+.Buscador {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: rgb(83, 136, 138);
+color: white;}
+
+.par { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+background-color: rgb(226, 236, 236);
+}
+
+.par2 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: rgb(242, 248, 248);
+    }
+
+
+#contenedor {
+width: 80%;
+margin: 0px auto;
+border:1px solid black ;
+
+}
+
+
+
+nav{
+background-color: rgb(190, 202, 199);
+height: 50px;
+
+}
+nav ul li {
+
+    float: left;
+    margin: 10px;
+}
+
+#contenido {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+    width: calc(80% - 80px);
+    padding: 30px;
+    border:1px solid black ;
+    }
+    
+    #aside {
+    float: right;
+    background-color: rgb(83, 136, 138);
+    min-height: 500px;
+    width: calc(20% - 20px);
+    padding: 10px;
+    }
+.separator{
+clear: both;
+
+}
